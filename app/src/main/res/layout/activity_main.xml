@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FD3D32DC"
+        android:orientation="horizontal"></LinearLayout>
+
+    <LinearLayout
+        android:layout_width="179dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#FD3D32DC"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"></LinearLayout>
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="match_parent"
+            android:layout_height="4dp" />
+
+
+        <ImageView
+            android:layout_width="96dp"
+            android:layout_height="126dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/fotoku" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName4"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="NADIF SATRIA ABABIL"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="201dp"
+            android:text="I am flexible reliable and process excellent time keeping skills. I am an enthusiastic, responsible and hard working person. I can apply my knowledge and skills for continuous improvement."
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CONTACT"
+            android:textColor="#FFFFFFFF"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="125dp"
+            android:text="+62 8387 8952 914
+                                 nadif.satria@gmail.com
+            Jetakan Pandowoharjo Sleman Yogyakarta 55512" />
+
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="175dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="match_parent"
+            android:layout_height="92dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="EXPERIENCE"
+            android:textColor="#FF000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text='PEMBANGUNAN NASIONAL "VETERAN" YOGYAKARTA UNIVERSITY'
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text="Member UKM of Art Sub Unit Graphic Design  |  2018-2019"
+            android:textColor="#FD3D32DC"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='1 SLEMAN HIGH SCHOOL'
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:text="Member of Drill Commands Tonti Smansa 26  |  2015 - 2018"
+            android:textColor="#FD3D32DC"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:text="EDUCATION"
+            android:textColor="#FF000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="49dp"
+            android:text='PEMBANGUNAN NASIONAL "VETERAN" YOGYAKARTA UNIVERSITY'
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Informatic | August 2018 - present"
+            android:textColor="#FD3D32DC"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="26dp"
+            android:text="GPA 3.58"
+            android:textColor="#FD3D32DC"
+            android:textSize="12sp" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='1 SLEMAN HIGH SCHOOL'
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="31dp"
+            android:text="Science Major  |  2015- 2018"
+            android:textColor="#FD3D32DC"
+            android:textSize="12sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text='1 SLEMAN JUNIOR HIGH SCHOOL'
+            android:textSize="13sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2012 - 2015"
+            android:textColor="#FD3D32DC"
+            android:textSize="12sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
